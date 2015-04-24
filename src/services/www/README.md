@@ -2,7 +2,7 @@
 
 FROM `market/nginx:latest`
 
-This service/io boots up the web site.
+This service boots up the web site.
 
 ## Commands ##
 
