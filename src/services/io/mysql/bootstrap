@@ -1,2 +1,4 @@
 docker build -t market/mysql .
+docker stop mariadb-data
+docker rm mariadb-data
 docker run --name=mariadb-data -v /var/lib/mysql --entrypoint /bin/echo market/mysql "MariaDB data volume"

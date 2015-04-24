@@ -1,0 +1,3 @@
+docker stop mariadb
+docker rm mariadb
+docker stop mariadb-data

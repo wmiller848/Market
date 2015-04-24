@@ -1,13 +1,13 @@
 #
 FROM fedora:latest
 
+# Set up deps
 RUN yum install -y glibc-devel glibc-headers glibc-static
 RUN yum install -y gcc cpp hostname
 RUN yum install -y openssl-devel
 RUN yum install -y git mercurial
-# RUN yum groupinstall -y "Development Tools"
 
-
+# Install golang
 WORKDIR /opt
 RUN git clone https://github.com/golang/go.git
 WORKDIR /opt/go/src

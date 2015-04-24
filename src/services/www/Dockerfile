@@ -1,20 +1,5 @@
 #
-FROM fedora:latest
+FROM market/nginx:latest
 
-RUN yum install -y glibc-devel glibc-headers glibc-static
-RUN yum install -y gcc cpp hostname
-RUN yum install -y openssl-devel
-RUN yum install -y git mercurial
-# RUN yum groupinstall -y "Development Tools"
-
-
-WORKDIR /opt
-RUN git clone https://github.com/golang/go.git
-WORKDIR /opt/go/src
-RUN git checkout release-branch.go1.4
-RUN ./all.bash
-RUN mkdir /opt/golang
-ENV GOPATH=/opt/golang
-ENV PATH=$PATH:/opt/go/bin:$GOPATH/bin
-RUN go get golang.org/x/tools/cmd/...
-WORKDIR /opt
+ADD ./conf/nginx.conf /usr/local/nginx/conf/nginx.conf
+ADD ./src /usr/local/nginx/html
