@@ -5,14 +5,18 @@ This is the production cluster
 
 #### Fedops Cluster ####
 fedops connect --cluster=https://fedops.market.com/connect
+
 [UserName]
+
 [AccessKey]
 
 ## Staging ##
 
 ### Fedops Cluster ###
 fedops connect --cluster=https://fedops.stag.market.com/connect
+
 [UserName]
+
 [AccessKey]
 
 ## Development ##
@@ -29,23 +33,31 @@ Market is micro service based.
 
 ## API Endpoints ##
 ## CREATE ##
-\* `POST` https://api.market.com/product
-\* `POST` https://api.market.com/producer
-\* `POST` https://api.market.com/distributor
+`POST` https://api.market.com/product
+
+`POST` https://api.market.com/producer
+
+`POST` https://api.market.com/distributor
 
 ## UPDATE ##
-\* `PUT` https://api.market.com/product
-\* `PUT` https://api.market.com/producer
-\* `PUT` https://api.market.com/distributor
+`PUT` https://api.market.com/product
+
+`PUT` https://api.market.com/producer
+
+`PUT` https://api.market.com/distributor
 
 ## RETRIEVE ##
-\- `GET` https://api.market.com/product
-\- `GET` https://api.market.com/producer
-\- `GET` https://api.market.com/distributor
+`GET` https://api.market.com/product
+
+`GET` https://api.market.com/producer
+
+`GET` https://api.market.com/distributor
 
 ## DESTROY ##
-\* `DELETE` https://api.market.com/product
-\* `DELETE` https://api.market.com/producer
-\* `DELETE` https://api.market.com/distributor
+`DELETE` https://api.market.com/product
+
+`DELETE` https://api.market.com/producer
+
+`DELETE` https://api.market.com/distributor
 
 *Requires Auth Headers
