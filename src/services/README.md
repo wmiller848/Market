@@ -33,7 +33,25 @@ Market is micro service based.
 
 ## API Endpoints ##
 ## \*CREATE ##
+
+#### Request ####
 `POST` https://api.market.com/product
+`HEADER: AuthKey : 09dh101010h101h90dh19h1nd`
+```
+{
+  "name" : "product name",
+  "cost" : "$value",
+  "zipcode" : 19211
+}
+```
+
+#### Response ####
+`STATUS 200 Ok`
+```
+{
+  "uuid" : "n0911knjvbuaifafni11fj1afa"
+}
+```
 
 `POST` https://api.market.com/producer
 
