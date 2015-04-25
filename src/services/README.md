@@ -32,14 +32,14 @@ Run `./run`
 Market is micro service based.
 
 ## API Endpoints ##
-## CREATE ##
+## \*CREATE ##
 `POST` https://api.market.com/product
 
 `POST` https://api.market.com/producer
 
 `POST` https://api.market.com/distributor
 
-## UPDATE ##
+## \*UPDATE ##
 `PUT` https://api.market.com/product
 
 `PUT` https://api.market.com/producer
@@ -53,11 +53,11 @@ Market is micro service based.
 
 `GET` https://api.market.com/distributor
 
-## DESTROY ##
+## \*DESTROY ##
 `DELETE` https://api.market.com/product
 
 `DELETE` https://api.market.com/producer
 
 `DELETE` https://api.market.com/distributor
 
-*Requires Auth Headers
+### \*Requires Auth Headers ###
