@@ -37,7 +37,11 @@ Market is micro service based.
 #### Request ####
 `POST` https://api.market.com/product
 
-HEADER | `AuthKey : 09dh101010h101h90dh19h1nd`
+Headers
+
+`AuthKey : 09dh101010h101h90dh19h1nd`
+
+Payload
 
 ```
 {
