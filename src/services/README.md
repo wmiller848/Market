@@ -36,7 +36,9 @@ Market is micro service based.
 
 #### Request ####
 `POST` https://api.market.com/product
-`HEADER: AuthKey : 09dh101010h101h90dh19h1nd`
+
+HEADER | `AuthKey : 09dh101010h101h90dh19h1nd`
+
 ```
 {
   "name" : "product name",
@@ -47,6 +49,7 @@ Market is micro service based.
 
 #### Response ####
 `STATUS 200 Ok`
+
 ```
 {
   "uuid" : "n0911knjvbuaifafni11fj1afa"
