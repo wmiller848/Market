@@ -19,7 +19,7 @@ This command will run the web site container, binding to the default http/https 
 ### Stop ###
 This command will stop the web site container.
 
-`/stop`
+`./stop`
 
 ## Docker ##
 `docker ps` to view running containers

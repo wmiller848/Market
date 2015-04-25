@@ -21,7 +21,7 @@ This command will run the mysql container, binding to the default mysql port and
 ### Stop ###
 This command will stop the mysql container.
 
-`/stop`
+`./stop`
 
 ## Docker ##
 `docker ps` to view running containers

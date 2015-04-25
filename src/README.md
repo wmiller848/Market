@@ -2,5 +2,5 @@
 
 * Be amazed.. √
 * Install `docker`.. √
-* Kick some ass.. √
-* See the services `README.md`
+* Get ready to kick some ass.. √
+* See the services `README.md`.. √
